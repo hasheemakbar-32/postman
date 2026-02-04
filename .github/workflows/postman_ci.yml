@@ -19,5 +19,5 @@ jobs:
       - name: Execute Tests
         run: |
           newman run test/MyNewEnvironment.postman_environment.json \
-          -e test/User Flow Automation.postman_collection.json \
+          -e test/User_Flow_Automation.postman_collection.json \
           --reporters cli
