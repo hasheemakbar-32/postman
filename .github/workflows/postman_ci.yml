@@ -18,6 +18,6 @@ jobs:
 
       - name: Execute Tests
         run: |
-          newman run ./tests/aapki_collection.json \
-          -e ./tests/aapka_environment.json \
+          newman run test/MyNewEnvironment.postman_environment.json \
+          -e test/User Flow Automation.postman_collection.json \
           --reporters cli
